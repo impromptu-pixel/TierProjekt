@@ -451,16 +451,25 @@ body {
 .impressum-section ul {
     list-style: none;
     padding: 0;
-    margin: 1rem auto;
-    max-width: 50rem;
-    text-align: center;
+    margin: 2rem auto;
+    max-width: 40rem;
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+    overflow: hidden;
 }
 
 .impressum-section ul li {
-    padding: 0.5rem 0;
-    border-bottom: 0.0625rem solid #e0e0e0;
-    color: #666;
+    padding: 1.25rem 2rem;
+    border-bottom: 0.0625rem solid #f0f0f0;
+    color: #555;
     line-height: 1.6;
+    transition: background-color 0.2s ease;
+    text-align: center;
+}
+
+.impressum-section ul li:hover {
+    background-color: #fafafa;
 }
 
 .impressum-section ul li:last-child {
@@ -469,33 +478,49 @@ body {
 
 .impressum-section ul li strong {
     color: #C35817;
+    font-weight: 600;
 }
 
 .impressum-section ul li a {
     color: #C35817;
     text-decoration: none;
     font-weight: 500;
+    border-bottom: 0.0625rem solid transparent;
+    transition: border-color 0.2s ease;
 }
 
 .impressum-section ul li a:hover {
-    text-decoration: underline;
+    border-bottom-color: #C35817;
     color: #2c5530;
 }
 
-/* Nested lists */
+/* Nested lists (Address) */
 .impressum-section ul ul {
-    margin: 0.5rem auto 0;
-    padding: 0.5rem;
-    border: 0.125rem solid #C35817;
-    border-radius: 0.25rem;
-    max-width: 15rem;
+    margin: 1rem auto 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 0.125rem solid #e9ecef;
+    border-radius: 0.5rem;
+    max-width: 18rem;
+    box-shadow: inset 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.05);
 }
 
 .impressum-section ul ul li {
-    padding: 0.25rem 0;
+    padding: 0.5rem 0;
     border-bottom: none;
-    font-size: 0.95em;
-    color: #777;
+    font-size: 0.95rem;
+    color: #666;
+    text-align: center;
+    background: transparent;
+}
+
+.impressum-section ul ul li:hover {
+    background: transparent;
+}
+
+.impressum-section ul ul li:first-child {
+    font-weight: 500;
+    color: #C35817;
 }
 
 /* ==========================================================================
@@ -579,6 +604,22 @@ body {
     .table-container {
         margin: 1rem -1rem;
     }
+
+    /* Modern List Responsive */
+    .impressum-section ul {
+        margin: 1.5rem auto;
+        max-width: 95%;
+    }
+    
+    .impressum-section ul li {
+        padding: 1rem 1.5rem;
+    }
+    
+    .impressum-section ul ul {
+        max-width: 100%;
+        margin: 0.75rem auto 0;
+        padding: 0.75rem;
+    }
 }
 
 @media (max-width: 30rem) {
@@ -593,5 +634,10 @@ body {
     .gallery-grid {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .impressum-section ul li {
+        padding: 0.875rem 1rem;
+        font-size: 0.95rem;
     }
 }
