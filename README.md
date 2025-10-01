@@ -66,6 +66,8 @@ Eine informative Website über Füchse, erstellt als praktische Arbeit für das 
 
 - **Bildladezeiten** - Abhängig von Reddit-Server-Geschwindigkeit
 - **Keine Bildfilterung** - Manchmal unpassende Bilder von Reddit
+- **CORS-Probleme** - Reddit API kann in manchen Browsern blockiert werden
+
 
 ## Ideen für Weiterentwicklung
 

@@ -338,8 +338,11 @@ body {
 
 .gallery-item img {
     width: 100%;
-    height: 15.625rem;
+    min-height: 12.5rem;
+    max-height: 20rem;
     object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 .gallery-overlay {
@@ -457,7 +460,8 @@ body {
     }
 
     .gallery-item img {
-        height: 12.5rem;
+        min-height: 10rem;
+        max-height: 16rem;
     }
 
     /* Tables */
