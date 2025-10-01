@@ -156,7 +156,7 @@ body {
    LISTS & CONTENT ELEMENTS
    ========================================================================== */
 
-.content-section ul {
+.impressum-section ul {
     list-style: none;
     padding: 0;
     margin: 1rem auto;
@@ -164,34 +164,34 @@ body {
     text-align: center;
 }
 
-.content-section ul li {
+.impressum-section ul li {
     padding: 0.5rem 0;
     border-bottom: 0.0625rem solid #e0e0e0;
     color: #666;
     line-height: 1.6;
 }
 
-.content-section ul li:last-child {
+.impressum-section ul li:last-child {
     border-bottom: none;
 }
 
-.content-section ul li strong {
+.impressum-section ul li strong {
     color: #C35817;
 }
 
-.content-section ul li a {
+.impressum-section ul li a {
     color: #C35817;
     text-decoration: none;
     font-weight: 500;
 }
 
-.content-section ul li a:hover {
+.impressum-section ul li a:hover {
     text-decoration: underline;
     color: #2c5530;
 }
 
 /* Nested lists */
-.content-section ul ul {
+.impressum-section ul ul {
     margin: 0.5rem auto 0;
     padding: 0.5rem;
     border: 0.125rem solid #C35817;
@@ -199,7 +199,7 @@ body {
     max-width: 15rem;
 }
 
-.content-section ul ul li {
+.impressum-section ul ul li {
     padding: 0.25rem 0;
     border-bottom: none;
     font-size: 0.95em;
