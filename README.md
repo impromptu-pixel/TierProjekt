@@ -6,8 +6,8 @@ Eine informative Website über Füchse, erstellt als praktische Arbeit für das 
 
 **Website URL:**
 
-- GitHub Pages: `https://impromptu-pixel.github.io/TierProjekt/`
-- Repository: `https://github.com/impromptu-pixel/TierProjekt`
+- Deployment: [https://impromptu-pixel.github.io/TierProjekt/](https://impromptu-pixel.github.io/TierProjekt/)
+- Repository: [https://github.com/impromptu-pixel/TierProjekt](https://github.com/impromptu-pixel/TierProjekt)
 
 ## Thema & Zielgruppe
 
